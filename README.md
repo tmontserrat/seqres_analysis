@@ -6,3 +6,6 @@ There are a total of four functions, all them rely in the first one: `retrieve_i
 
 - `check_equal_chains()`: this is a simple function that check if all the subunits are the same or not. This function call the function `retrieve_information_pdb()` to work. It returns a number meaning the number of different subunits the protein has. As arguments, only needs the path to the pdb file.  
 
+- `count_aminoacids_subunits()`: only require the path to the pdb and returns a list with the number of aminoacids present in each subunit of the protein. It calls `retrieve_information_pdb()` in order to work.   
+
+- `format_results()`: as arguments only requiere the path to the pdb file. It calls all the other functions in the module and returns the results neatly formatted.  
