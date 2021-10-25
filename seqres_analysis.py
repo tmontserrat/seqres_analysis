@@ -1,3 +1,5 @@
+# Copyright 2021 Tomàs Montserrat Ayuso
+
 """
 Set of functions to quickly analize the subunits of a protein in a pdb file.
 """
